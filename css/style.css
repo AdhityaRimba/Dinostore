@@ -1,0 +1,27 @@
+.butt {
+    width: 500px;
+    height: 58px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.bg-dino {
+    height: 100%;
+    background: rgb(30,189,30);
+    background: -moz-linear-gradient(236deg, rgba(30,189,30,1) 0%, rgba(44,148,54,1) 100%);
+    background: -webkit-linear-gradient(236deg, rgba(30,189,30,1) 0%, rgba(44,148,54,1) 100%);
+    background: linear-gradient(236deg, rgba(30,189,30,1) 0%, rgba(44,148,54,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1ebd1e",endColorstr="#2c9436",GradientType=1);
+}
+
+.bg-dino-flip {
+    background: rgb(0,145,0);
+}
+
+.flip-img {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
